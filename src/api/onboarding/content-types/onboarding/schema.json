@@ -1,10 +1,10 @@
 {
-  "kind": "singleType",
-  "collectionName": "onboarding_contents",
+  "kind": "collectionType",
+  "collectionName": "onboardings",
   "info": {
-    "singularName": "onboarding-content",
-    "pluralName": "onboarding-contents",
-    "displayName": "Onboarding Content",
+    "singularName": "onboarding",
+    "pluralName": "onboardings",
+    "displayName": "Onboarding",
     "description": ""
   },
   "options": {
@@ -32,7 +32,7 @@
       },
       "type": "string"
     },
-    "speaker_video_subtitles_url": {
+    "speaker_subtitles_url": {
       "pluginOptions": {
         "i18n": {
           "localized": true
